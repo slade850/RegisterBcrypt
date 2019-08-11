@@ -1,0 +1,13 @@
+nRegister est une alternative à 'migrate-mongo', ce petit script permet de sélectionner une base de donnée Mongodb, de  lancer un serveur local et de démarrer le navigateur sur une page register pour y enregistrer un ou plusieurs utilisateurs avec Bcrypt, sans avoir à ajouter de fichier supplémentaire dans un projet nécessitant une authentification et n'autorisant pas d’enregistrement direct. 
+
+Pour l'utiliser, accorder les droits d’exécution au fichier nRegister, dans le terminal taper : sudo chmod +x nRegister 
+
+Ensuite copiez le fichier dans le $path  en tapant: sudo cp nRegister /usr/bin 
+
+Ressortir du dossier et allez à la racine en tapant : cd  /
+
+Copiez le dossier 'newRegister' à la racine en tapant : sudo cp -r /”Chemin actuel ver votre dossier”/newRegister  /newRegister
+
+Accordez-vous les droits sur le nouveau dossier en tapant : sudo chown -R "utilisateur":"utilisateur" newRegister
+
+pour demarrer le script tapez simplement dans la console: nRegister
