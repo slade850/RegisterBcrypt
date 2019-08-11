@@ -1,0 +1,6 @@
+cd /newRegister
+read -r -p "entrer l'addresse mongo: " reponse
+echo 'module.exports = {
+    MongoURI: '$reponse'
+}' > config/keys.js
+npm run start
